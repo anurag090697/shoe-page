@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(177, 186, 186);
+}
+.background-mid {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.bg1 {
+    background: linear-gradient(to right, #8C2486, #F26F24);
+    height: 80%;
+    width: 80%;
+    
+    padding: 25px;
+    
+}
+.bg1::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #B82B27, #1864BE);
+    transform: skewY(15deg);
+    z-index: -1;
+}
+img {
+    width: 600px;
+    height: 300px;
+}
+.words {
+    color: white;
+    width: 400px;
+}
+img:hover{
+    width: 800px;
+    height: 600px;
+}
